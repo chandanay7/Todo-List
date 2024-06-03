@@ -1,6 +1,7 @@
 const searchContainer = document.querySelector('.search-container');
 const listContainer = document.getElementById("list-container");
 
+// function logic
 function myFun(){
     if(searchContainer.value==""){
         alert("You must enter some value");
